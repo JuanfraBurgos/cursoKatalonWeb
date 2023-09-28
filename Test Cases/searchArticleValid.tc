@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>searchArticleValid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb08a5cd-54fb-4429-9482-9aa812014e87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b16ac82f-3586-4289-9896-ff42469933cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>551e4c80-c204-4157-b920-5bc0fcbdb8e9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'katalon+calltestcase@test.com'</defaultValue>
+      <description></description>
+      <id>b16ac82f-3586-4289-9896-ff42469933cb</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'test2'</defaultValue>
+      <description></description>
+      <id>551e4c80-c204-4157-b920-5bc0fcbdb8e9</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

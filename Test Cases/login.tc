@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8fcdc09-9e1d-405b-a32c-c869f37fef43</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0ee0b9d-a5d2-41a4-aa7c-dcf89ba8f5d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ced2630d-8872-40f7-b215-db47cda0be58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbed5358-8ae6-43ca-a0fa-c8aa44d603d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <description></description>
+      <id>d0ee0b9d-a5d2-41a4-aa7c-dcf89ba8f5d5</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'juan.burgos@abstracta.com.uy'</defaultValue>
+      <description></description>
+      <id>ced2630d-8872-40f7-b215-db47cda0be58</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Juanfra10'</defaultValue>
+      <description></description>
+      <id>dbed5358-8ae6-43ca-a0fa-c8aa44d603d3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
