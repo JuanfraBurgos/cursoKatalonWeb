@@ -17,19 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('login'), [('baseUrl') : GlobalVariable.baseUrl, ('email') : email, ('password') : password], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Your Store/i_US Dollar_fa fa-user'))
 
-WebUI.setText(findTestObject('Page_Your Store/input_Your Store_search'), 'iPhone')
+WebUI.click(findTestObject('Page_Your Store/a_Register'))
 
-WebUI.click(findTestObject('Page_Your Store/button_Your Store_btn btn-default btn-lg'))
+WebUI.setText(findTestObject('Page_Register Account/input_First Name_firstname'), firstName)
 
-WebUI.verifyElementText(findTestObject('Page_Search - iPhone/a_iPhone'), 'iPhone')
+WebUI.setText(findTestObject('Page_Register Account/input_Last Name_lastname'), lastName)
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Page_Register Account/input_E-Mail_email'), email)
 
-@com.kms.katalon.core.annotation.SetUp
-Void setUp() {
-    println('Este es un msj de setup creado en el testCase')
-}
+WebUI.setText(findTestObject('Page_Register Account/input_Telephone_telephone'), phone)
+
+WebUI.setText(findTestObject('Page_Register Account/input_Password_password'), password)
+
+WebUI.setText(findTestObject('Page_Register Account/input_Password Confirm_confirm'), passwordConfirm)
+
+WebUI.click(findTestObject('Page_Register Account/input_Privacy Policy_agree'))
+
+WebUI.click(findTestObject('Page_Register Account/input_Privacy Policy_btn btn-primary'))
 

@@ -9,4 +9,9 @@
       <initValue>'http://opencart.abstracta.us/'</initValue>
       <name>baseUrl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>usuarioEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Samsung SyncMaster 941BW</name>
+   <tag></tag>
+   <elementGuidId>0dac8ae9-ed2c-45b8-ac7e-48b2b977b466</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-4 > h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>631f7f12-4439-4571-8835-65fc938a15b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Samsung SyncMaster 941BW</value>
+      <webElementGuid>e9cdd53d-a570-4572-845d-88762dc2b58a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4&quot;]/h1[1]</value>
+      <webElementGuid>c83833e0-c06c-4c72-b3df-53115662d894</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/h1</value>
+      <webElementGuid>bbd0d1c8-d163-497a-97fb-15c181b71e99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/following::h1[1]</value>
+      <webElementGuid>52ebbfec-adde-4519-bdcd-8f158473bc79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rating'])[1]/following::h1[1]</value>
+      <webElementGuid>45c9f77a-4f96-4711-8657-f97a5f86cdd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product Code: Product 6'])[1]/preceding::h1[1]</value>
+      <webElementGuid>fe13e04f-df3f-4be8-8322-b0ae18b75d0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Availability: 793'])[1]/preceding::h1[1]</value>
+      <webElementGuid>093210a5-b00e-49f4-81c6-52118ca21290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/h1</value>
+      <webElementGuid>a8caf0c5-4ac7-4ad9-a2fd-3f43844905a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Samsung SyncMaster 941BW' or . = 'Samsung SyncMaster 941BW')]</value>
+      <webElementGuid>0e619496-52a5-4385-94df-e8eea99ab74a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

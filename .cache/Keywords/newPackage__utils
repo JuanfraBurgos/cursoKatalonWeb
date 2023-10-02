@@ -1,29 +1,16 @@
 {
-  "keywordFileContentHash": "5D6C3B3DC0720F06A543E0857E77D05A",
+  "keywordFileContentHash": "044751589CD3B0925F4EA58FFD0A0A1D",
   "keywordClasses": [
     {
       "name": "newPackage.utils",
       "keywordMethods": [
         {
-          "name": "customPrint",
-          "parameters": [
-            {
-              "name": "msg",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ]
+          "name": "numeroRandom",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
