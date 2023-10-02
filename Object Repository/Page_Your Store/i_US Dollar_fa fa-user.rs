@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>dbadf437-86f0-4d67-9dc9-ddd4806d44d8</webElementGuid>
+      <webElementGuid>3a1e840b-1532-47d7-822c-33c5e12b42fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-user</value>
-      <webElementGuid>b00b4df9-049d-4f97-ad74-495f2575a6e3</webElementGuid>
+      <webElementGuid>1b32f2c7-7fea-4b82-9186-53e689dd12a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;top-links&quot;)/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropdown-toggle&quot;]/i[@class=&quot;fa fa-user&quot;]</value>
-      <webElementGuid>d712d5fc-4c7a-4126-92c7-cc8c5076adad</webElementGuid>
+      <value>id(&quot;top-links&quot;)/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;dropdown open&quot;]/a[@class=&quot;dropdown-toggle&quot;]/i[@class=&quot;fa fa-user&quot;]</value>
+      <webElementGuid>611fc9d5-e03c-4a57-827c-99791cee771c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='top-links']/ul/li[2]/a/i</value>
-      <webElementGuid>5ad2a8d0-62a9-4b26-887e-1ecda24ec73f</webElementGuid>
+      <webElementGuid>d30d3948-037f-4117-97fa-b5750b8dbab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a/i</value>
-      <webElementGuid>62ebd0d4-e364-4302-855f-6900606cef15</webElementGuid>
+      <webElementGuid>a4bbcf5b-4eda-412c-9652-90892c30af6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -33,5 +33,3 @@ WebUI.click(findTestObject('Object Repository/Page_Account Login/input_Forgotten
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_My Account/h2_My Account'), 'My Account')
 
-CustomKeywords.'newPackage.utils.customPrint'(baseUrl)
-

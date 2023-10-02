@@ -21,10 +21,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class utils {
-	
+
 	@Keyword ()
-	def customPrint(String msg) {
-		println 'the message received by de keyword is ' + msg
+	static String numeroRandom() {
+		def emailNuevo = 'juan.burgos+' + Math.random() + '@abstracta.com.uy'
+		return emailNuevo
 	}
-	
 }
