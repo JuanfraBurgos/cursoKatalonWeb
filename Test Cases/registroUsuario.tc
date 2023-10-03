@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b1101bca-83a6-446e-8247-770fd773c5bd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>4524dcb2-d7fe-46ef-a9ad-31ffc9a7ca51</variableId>
    </variableLinks>
    <variableLinks>
@@ -41,13 +35,6 @@
       <value></value>
       <variableId>3d5e0e6e-f3af-458e-9d6d-3d110ff6e8e7</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'juan.burgos+1@abstracta.com.uy'</defaultValue>
-      <description></description>
-      <id>b1101bca-83a6-446e-8247-770fd773c5bd</id>
-      <masked>false</masked>
-      <name>email</name>
-   </variable>
    <variable>
       <defaultValue>'Juanfra'</defaultValue>
       <description></description>

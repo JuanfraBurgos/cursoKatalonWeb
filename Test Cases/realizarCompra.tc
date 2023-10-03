@@ -165,7 +165,7 @@
       <name>region</name>
    </variable>
    <variable>
-      <defaultValue>'Samsung'</defaultValue>
+      <defaultValue>'Samsung SyncMaster 941BW'</defaultValue>
       <description></description>
       <id>2a58b5ef-8a64-412b-b75e-91727f86ee51</id>
       <masked>false</masked>

@@ -23,24 +23,26 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 import com.kms.katalon.core.checkpoint.CheckpointFactory
 
-class TestListenerExample {
+class TestListener {
 	@BeforeTestCase
 	def beforeTestCaseListener() {
-		println("Mensaje de beforeTestCase")
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl(GlobalVariable.baseUrl)
+		WebUI.maximizeWindow()
 	}
 	
 	@AfterTestCase
 	def afterTestCaseListener() {
-		println("Mensaje de afterTestCase")
+		WebUI.closeBrowser()
 	}
 	
 	@BeforeTestSuite
 	def beforeTestSuiteListener() {
-		println("Mensaje de beforeTestSuite")
+		
 	}
 	
 	@AfterTestSuite
 	def afterTestSuiteListener() {
-		println("Mensaje de afterTestSuite")
+		
 	}
 }

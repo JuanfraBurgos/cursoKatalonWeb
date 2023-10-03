@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>registroUsuarioPassInvalida</name>
+   <name>registroUsuarioInvalido</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2df86cf5-c40f-43e8-8554-f5b13f03d607</testCaseGuid>

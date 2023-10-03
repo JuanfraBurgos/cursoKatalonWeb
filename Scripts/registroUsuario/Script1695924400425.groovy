@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-GlobalVariable.usuarioEmail = CustomKeywords.'newPackage.utils.numeroRandom'()
+def email = CustomKeywords.'newPackage.utils.numeroRandom'()
 
 WebUI.click(findTestObject('Page_Your Store/i_US Dollar_fa fa-user'))
 
@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Page_Register Account/input_First Name_firstname')
 
 WebUI.setText(findTestObject('Page_Register Account/input_Last Name_lastname'), lastName)
 
-WebUI.setText(findTestObject('Page_Register Account/input_E-Mail_email'), GlobalVariable.usuarioEmail)
+WebUI.setText(findTestObject('Page_Register Account/input_E-Mail_email'), email)
 
 WebUI.setText(findTestObject('Page_Register Account/input_Telephone_telephone'), phone)
 
@@ -45,5 +45,4 @@ WebUI.click(findTestObject('Page_Your Account Has Been Created/a_Continue'))
 
 WebUI.verifyElementText(findTestObject('Page_My Account/h2_My Account'), 'My Account')
 
-//def emailCalculado = CustomKeywords.'newPackage.utils.numeroRandom'(email)
-
+return email

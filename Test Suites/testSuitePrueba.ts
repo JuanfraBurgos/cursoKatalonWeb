@@ -16,50 +16,35 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/registroUsuario</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/registroUsuario</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>email</value>
-         <variableId>b1101bca-83a6-446e-8247-770fd773c5bd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>firstName</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>4524dcb2-d7fe-46ef-a9ad-31ffc9a7ca51</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>lastName</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>11c02de6-36d3-411b-ad2b-0c0abad0566d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>phone</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>b94747a3-e98d-40e6-991e-7973600db473</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>ce82618a-3d49-49cc-8675-928fb589b281</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7f3370c0-7d66-43b7-9a2e-71e29c93afb4</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>passwordConfirm</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>3d5e0e6e-f3af-458e-9d6d-3d110ff6e8e7</variableId>
       </variableLink>
    </testCaseLink>
@@ -67,7 +52,7 @@
       <guid>7d971787-9043-481e-ab7d-dcf55037fb0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/registroUsuarioPassInvalida</testCaseId>
+      <testCaseId>Test Cases/registroUsuarioInvalido</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>31d6363b-d569-45ac-aadc-26b019ee22ae</id>

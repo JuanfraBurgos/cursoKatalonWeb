@@ -16,18 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser(GlobalVariable.baseUrl)
-
-WebUI.navigateToUrl('http://opencart.abstracta.us/')
-
-WebUI.maximizeWindow()
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.click(findTestObject('Page_Your Store/i_US Dollar_fa fa-user'))
 
 WebUI.click(findTestObject('Page_Your Store/a_Login'))
 
-WebUI.setText(findTestObject('Page_Account Login/input_E-Mail Address_email'), GlobalVariable.usuarioEmail)
+WebUI.setText(findTestObject('Page_Account Login/input_E-Mail Address_email'), email)
 
 WebUI.setText(findTestObject('Page_Account Login/input_Password_password'), password)
 
@@ -39,15 +34,13 @@ WebUI.setText(findTestObject('Page_Your Store/input_Your Store_search'), textoBu
 
 WebUI.click(findTestObject('Page_My Account/button_Your Store_btn btn-default btn-lg'))
 
-WebUI.click(findTestObject('Page_Search - samsung/a_Samsung SyncMaster 941BW'))
+WebUI.click(findTestObject('Page_Samsung SyncMaster 941BW/producto', [('textoBuscar') : textoBuscar]))
 
 WebUI.verifyElementText(findTestObject('Page_Samsung SyncMaster 941BW/h1_Samsung SyncMaster 941BW'), textoVerificar)
 
 WebUI.click(findTestObject('Page_Samsung SyncMaster 941BW/button_Add to Cart'))
 
-WebUI.verifyElementText(findTestObject('Page_Samsung SyncMaster 941BW/button_1 item(s) - 200.00'), textoCarrito)
-
-WebUI.click(findTestObject('Page_Samsung SyncMaster 941BW/button_1 item(s) - 200.00'))
+WebUI.click(findTestObject('Page_Register Account/btnCarrito'))
 
 WebUI.click(findTestObject('Page_Samsung SyncMaster 941BW/strong_Checkout'))
 
@@ -65,16 +58,19 @@ WebUI.selectOptionByLabel(findTestObject('Page_Checkout/select_- Country'), coun
 
 WebUI.selectOptionByLabel(findTestObject('Page_Checkout/select_- Region'), region, false)
 
+WebUI.scrollToElement(findTestObject('Page_Checkout/input_Region  State_button-payment-address'), 2)
+
 WebUI.click(findTestObject('Page_Checkout/input_Region  State_button-payment-address'))
 
 WebUI.click(findTestObject('Page_Checkout/input_Region  State_button-shipping-address'))
 
 WebUI.click(findTestObject('Page_Checkout/input_Add Comments About Your Order_button-shipping-method'))
 
-//WebUI.click(findTestObject('Page_Checkout/input_Cash On Delivery_payment_method'))
 WebUI.click(findTestObject('Page_Checkout/input_Terms  Conditions_agree_payment'))
 
 WebUI.click(findTestObject('Page_Checkout/input_Terms  Conditions_button-payment-method'))
+
+WebUI.scrollToElement(findTestObject('Page_Checkout/input_Please transfer the total amount to the following bank account_button-confirmPAYMENT'), 2)
 
 WebUI.click(findTestObject('Page_Checkout/input_Please transfer the total amount to the following bank account_button-confirmPAYMENT'))
 
@@ -83,4 +79,16 @@ WebUI.verifyElementText(findTestObject('Page_Your order has been placed/h1_Your 
 WebUI.click(findTestObject('Page_Your order has been placed/a_Continue'))
 
 WebUI.verifyElementText(findTestObject('Page_Your Store/a_Your Store'), textoTienda)
+
+@com.kms.katalon.core.annotation.SetUp
+def setUp() {
+	email = WebUI.callTestCase(findTestCase('registroUsuario'), [ ('firstName') : 'Juanfra'
+		, ('lastName') : 'Burgos', ('phone') : '123456', ('password') : 'JuanfraBurgos', ('passwordConfirm') : 'JuanfraBurgos'],
+	FailureHandling.STOP_ON_FAILURE)
+	WebUI.closeBrowser()
+	WebUI.openBrowser('')
+	WebUI.navigateToUrl(GlobalVariable.baseUrl)
+	WebUI.maximizeWindow()
+}
+
 

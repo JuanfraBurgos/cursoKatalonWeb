@@ -9,7 +9,7 @@
    <dataFileGUID>5423c8bb-114c-477a-914c-2e12fa110136</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>katalon%2Bcalltestcase%40test.com JuanfraBurgos Juanfra Burgos la+rambla Montevideo 11800 Uruguay Montevideo Samsung Samsung+SyncMaster+941BW 1+item%28s%29+-+%24200.00 Checkout Your+order+has+been+placed%21 Your+Store My+Account</data>
+   <data>katalon%2Bcalltestcase%40test.com JuanfraBurgos Juanfra Burgos la+rambla Montevideo 11800 Uruguay Montevideo Samsung+SyncMaster+941BW Samsung+SyncMaster+941BW 1+item%28s%29+-+%24200.00 Checkout Your+order+has+been+placed%21 Your+Store My+Account</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>email</name>

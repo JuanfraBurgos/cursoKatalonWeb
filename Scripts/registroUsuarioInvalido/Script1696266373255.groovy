@@ -37,3 +37,5 @@ WebUI.click(findTestObject('Page_Register Account/input_Privacy Policy_agree'))
 
 WebUI.click(findTestObject('Page_Register Account/input_Privacy Policy_btn btn-primary'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Register Account/msjError'), 1)
+
